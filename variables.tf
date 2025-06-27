@@ -40,5 +40,5 @@ variable "delete_automated_backup" {
 }
 variable "instance_class" {
   type    = string
-  default = "db.t2.micro"
+  default = "db.t3.micro"
 }
